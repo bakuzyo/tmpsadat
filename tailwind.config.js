@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        doctolib: "url('../public/doctolib.png')"
+      },
+    },
   },
   plugins: [],
 }
