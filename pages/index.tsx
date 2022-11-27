@@ -25,13 +25,13 @@ const Home: NextPage = () => {
         <About />
       </section>
       {/* EXPERIENCE */}
-      <section id="experience" className="snap-center">
+      {/* <section id="experience" className="snap-center">
         <Experience />
-      </section>
+      </section> */}
       {/* SKILLS */}
-      <section id="skills" className='snap-start'>
+      {/* <section id="skills" className='snap-start'>
         <Competences />
-      </section>
+      </section> */}
       {/* PROJECTS */}
 
       {/* CONTACT ME */}
