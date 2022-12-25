@@ -1,6 +1,6 @@
 export default {
-  name: 'diplome',
-  title: 'Diplome',
+  name: 'project',
+  title: 'Project',
   type: 'document',
   fields: [
     {
@@ -26,7 +26,7 @@ export default {
       name: "technologies",
       title: "Technologies",
       type: "array",
-      of: [{ type: "reference", to: { type: "competence" } }],
+      of: [{ type: "reference", to: { type: "skill" } }],
     },
     {
       name: "linkTobuild",

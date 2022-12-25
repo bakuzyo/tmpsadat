@@ -25,7 +25,7 @@ function MessageMe() {
 
             <div className='flex flex-col space-y-10'>
                 <h4 className='text-4xl font-semibold text-center'>
-                    Lorem pisum to coredor in thornmail.{" "}
+                    Contactez-moi pour prendre rendez vous.{" "}
                     <span className='decoration-[#F7AB0A]/50 underline'>Discutons.</span>
                 </h4>
 
@@ -33,21 +33,21 @@ function MessageMe() {
                     <div className='flex items-center space-x-5'>
                         <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl'>
-                            +3348371829
+                            01 42 09 29 55
                         </p>
                     </div>
 
                     <div className='flex items-center space-x-5'>
                         <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl'>
-                            papaere.@gmail.com
+                            isabelle.sadat@wanadoo.fr
                         </p>
                     </div>
 
                     <div className='flex items-center space-x-5'>
                         <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl'>
-                            123 Medecin lane
+                            25 Rue Philippe de Girard, 75010 à Paris
                         </p>
                     </div>
 

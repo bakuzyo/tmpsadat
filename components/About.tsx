@@ -1,9 +1,13 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import { PageInfo } from "../typings";
+import { urlFor } from '../sanity';
 
-type Props = {}
+type Props = {
+    pageInfo: PageInfo;
+}
 
-export default function About({ }: Props) {
+export default function About({ pageInfo }: Props) {
     return <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -14,9 +18,10 @@ export default function About({ }: Props) {
          absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Â propos
         </h3>
+        {/* {!pageInfo.profilePic && ( */}
         <motion.img
             initial={{
-                x: -200,
+                x: -200, 
                 opacity: 0,
             }}
             transition={{
@@ -24,11 +29,15 @@ export default function About({ }: Props) {
             }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            src="https://i.postimg.cc/52hNRBnB/filter-Isabelle-
-            Sadat-min.png"
+            // src="https://i.postimg.cc/52hNRBnB/filter-Isabelle-
+            // // Sadat-min.png"
             className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
              md:rounded-lg md:w-95 md:h-64 xl:w-[500px] xl:h-[600px]'
+            // src={urlFor(pageInfo?.profilePic).url()}
+            src="https://cdn.sanity.io/images/rlw8j87m/production/96e0e5cecb6330e5a9aea367313870476bc2bad2-3744x4992.jpg"
+            alt="test"
         />
+        {/* )} */}
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
                 Isabelle Sadat,{" "}
@@ -36,6 +45,7 @@ export default function About({ }: Props) {
                 ,<br /> à Paris 10ème
             </h4>
             <p className='text-base'>
+                {/* {pageInfo?.backgroundInformation} */}
             {`
                 Docteur Isabelle Sadat est médecin généraliste et Psychothérapeute depuis plusieurs années.`}<br />{`
                 Elle Pratique plusieurs types de thérapies brèves. elle a été formée à la thérapie comportementale et cognitive (TTC), `}<br />{`

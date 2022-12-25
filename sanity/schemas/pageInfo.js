@@ -6,7 +6,7 @@ export default {
     {
       name: "name",
       title: "Name",
-      type: "string"
+      type: "string",
     },
     {
       name: "heroImage",
@@ -22,8 +22,8 @@ export default {
       type: "string",
     },
     {
-      name: "profileImg",
-      title: "ProfileImg",
+      name: "profilePic",
+      title: "ProfilePic",
       type: "image",
       options: {
         hotspot: true,
@@ -32,12 +32,12 @@ export default {
     {
       name: "phoneNumber",
       title: "PhoneNumber",
-      type: "string"
+      type: "string",
     },
     {
       name: "email",
       title: "Email",
-      type: "string"
+      type: "string",
     },
     {
       name: "address",

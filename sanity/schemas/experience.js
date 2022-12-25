@@ -1,6 +1,6 @@
 export default {
-  name: 'exp',
-  title: 'Exp',
+  name: 'experience',
+  title: 'Experience',
   type: 'document',
   fields: [
     {
@@ -9,7 +9,7 @@ export default {
       type: "string",
     },
     {
-      name: "entrepriseImage",
+      name: "companyImage",
       title: "Entreprise Image",
       type: "image",
       options: {
@@ -40,7 +40,7 @@ export default {
       name: "technologies",
       title: "Technologies",
       type: "array",
-      of: [{ type: "reference", to: { type: "competence" } }],
+      of: [{ type: "reference", to: { type: "skill" } }],
     },
     {
       name: "points",
