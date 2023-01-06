@@ -44,10 +44,10 @@ export default function Header({ socials }: Props) {
                     />
                 ))}
                 <SocialIcon
-                    url="https://www.doctolib.fr/medecin-generaliste/paris/isabelle-sadat"
+                    url="https://www.linkedin.com/in/isabelle-sadat-631b06184/?originalSubdomain=fr"
                     fgColor="gray"
                     bgColor="transparent"
-                    label="Doctolib"
+                    label="Linkedin"
                 />
                 <a
                     className='ml-4'

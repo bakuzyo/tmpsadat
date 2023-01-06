@@ -47,12 +47,12 @@ export default function About({ pageInfo }: Props) {
             <p className='text-base'>
                 {/* {pageInfo?.backgroundInformation} */}
             {`
-                Docteur Isabelle Sadat est médecin généraliste et Psychothérapeute depuis plusieurs années.`}<br />{`
-                Elle Pratique plusieurs types de thérapies brèves. elle a été formée à la thérapie comportementale et cognitive (TTC), `}<br />{`
-                à la thérapie des schémas (TTC 3ème vague), à la thérapie de l'acceptation et de l'engagement (ACT) thérapie `}<br />{`
-                systémique, à la thérapie analytique et à l'hypnothérapie intégrative. `}<br />{`
-                La psychothérapie est l'utilisation d'une méthode thérapeutique qui fait uniquement appel à des moyens`}<br />{`
-                psychologiques pour traiter des troubles psychiques ou somatiques.`}
+                Docteur Isabelle Sadat est médecin généraliste et Psychothérapeute depuis plusieurs années.`}{`
+                Elle Pratique plusieurs types de thérapies brèves. elle a été formée:`}<br />{` à la thérapie comportementale et cognitive (TTC), `}<br />{`
+                à la thérapie des schémas (TTC 3ème vague), `}<br />{`à la thérapie de l'acceptation et de l'engagement (ACT),`}<br />{`à la thérapie systémique,`}<br />{`
+                à la thérapie analytique,`}<br />{`ainsi qu'à l'hypnothérapie intégrative. `}<br />{`
+                La psychothérapie est l'utilisation d'une méthode thérapeutique qui fait uniquement
+                 appel à des moyens psychologiques pour traiter des troubles psychiques ou somatiques.`}
             </p>
         </div>
     </motion.div>

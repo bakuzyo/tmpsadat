@@ -17,9 +17,9 @@ function Diplomes({ projects }: Props) {
 
             className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row 
         max-w-full justify-evenly mx-auto items-center z-0'>
-            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray=500 text-2xl'>
+            {/* <h3 className='absolute top-24 uppercase tracking-[20px] text-gray=500 text-2xl'>
                 Diplomes
-            </h3>
+            </h3> */}
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
                  snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 
                     scrollbar-thumb-[#F7AB0A]/80'>
@@ -35,11 +35,12 @@ function Diplomes({ projects }: Props) {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             src={urlFor(project?.image).url()}
+                            className='md:h-[450px]'
                             // src="https://cdn.sanity.io/images/rlw8j87m/production/6b7e553f490c40e1de7f49d3641db8e3fa0c5804-600x397.jpg"
                             alt=""
                         />
-                        <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                            <h4 className='text-4xl font-semibold text-center'>
+                        <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
+                            <h4 className='text-xl md:text-4xl font-semibold text-center'>
                                 <span className='underline decoration-[#F7AB0A]/50'>
                                     Étape {i + 1} sur {projects.length}:
                                 </span>{" "}
@@ -47,17 +48,18 @@ function Diplomes({ projects }: Props) {
                             </h4>
 
                             <div className='flex items-center space-x-2 justify-center'>
-                                {project?.technologies.map((technology) => (
+                                {/* {project?.technologies.map((technology) => (
                                     <img
                                         className='h-10 w-10'
                                         key={technology._id}
                                         src={urlFor(technology.image).url()}
                                         alt=''
                                     />
-                                ))}
+                                ))} */}
                             </div>
-                            <p className='text-lg text-center md:text-left'>
+                            <p className='text-base md:text-lg text-center'>
                                 {project?.sommaire}
+                                {/* {project?.linkTobuild} */}
                             </p>
                         </div>
                     </div>

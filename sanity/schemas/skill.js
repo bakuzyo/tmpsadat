@@ -17,7 +17,7 @@ export default {
       validation: (Rule) => Rule.min(0).max(100),
     },
     {
-      name: "image",
+      name: "skillImage",
       title: "Image",
       type: "image",
       options: {

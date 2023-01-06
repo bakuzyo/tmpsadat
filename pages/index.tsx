@@ -57,17 +57,17 @@ const Home = ({ pageInfo, experiences, projects, skills, socials}: Props ) => {
       <section id='contact' className='snap-start'>
         <MessageMe />
       </section> */}
-
+{/* 
       <Link href="#hero">
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
             <img
               className="h-10 w-10 rounded-fll filter grayscale hover:grayscale-0
                cursor-pointer hover:p-1"
-              src="https://cdn.sanity.io/images/rlw8j87m/production/f62dcc5d9d61269e5254f809887d78a6f9d3d655-603x536.jpg" alt="" />
+              src="https://i.postimg.cc/900TmpZ1/return-Home.png" alt="" />
           </div>
         </footer>
-      </Link>
+      </Link> */}
     </div>
   )
 }

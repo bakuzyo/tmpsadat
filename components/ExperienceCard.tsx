@@ -34,8 +34,7 @@ export default function ExperienceCard({ experience }: Props) {
             />
 
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>Isabelle sadat</h4>
-                <p className='font-bold text-2xl mt-1'>Psychothérapie</p>
+                <h4 className='underline decoration-[#F7AB0A]/50 font-bold text-2xl mt-1'>{experience.company}</h4>
                 <div className='flex space-x-2 my-2'>
                     {/* <img
                     className='h-10 w-10 rounded-full'
@@ -60,15 +59,15 @@ export default function ExperienceCard({ experience }: Props) {
                     {experience.technologies.map(technology => (
                         <img
                             key={technology._id}
-                            className="h-10 w-10 object-cover rounded-full"
+                            className="h-10 w-10 md:h-[75px] md:w-[75px] m-2 object-cover rounded-full"
                             src={urlFor(technology.image).url()}
                         />
                     ))}
                 </div>
-                <p className='uppercase py-5 text-gray-300'>
+                {/* <p className='uppercase py-5 text-gray-300'>
                     {new Date(experience.dateStarted).toDateString()}
-                </p>
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                </p> */}
+                <ul className='text-center space-y-4 ml-5'>
                     {experience.points.map((point, i) => (
                         <li key={i}>{point}</li>
                     ))}

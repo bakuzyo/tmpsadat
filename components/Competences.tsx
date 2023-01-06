@@ -21,7 +21,7 @@ function Competences({ skills }: Props) {
                 Competences
             </h3>
             <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
-                diplomes et competences de Mme Sadat
+                Diplômes nationaux, universitaires, et autres formations
             </h3>
             <div className='grid grid-cols-3 gap-5'>
                 {skills?.slice(0, skills.length / 2).map((skill) => (
@@ -29,7 +29,7 @@ function Competences({ skills }: Props) {
                 ))}
 
                 {skills?.slice(skills.length / 2, skills.length).map((skill) => (
-                    <Competence key={skill._id} skill={skill} directionLeft/>
+                    <Competence key={skill._id} skill={skill} directionLeft />
                 ))}
             </div>
         </motion.div>

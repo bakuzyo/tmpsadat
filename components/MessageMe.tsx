@@ -12,7 +12,7 @@ type Inputs = {
 function MessageMe() {
     const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => {
-        window.location.href = `mailto:valetoo@hotmail.fr?subject=${formData.objet}&
+        window.location.href = `mailto:isabelle.sadat@wanadoo.fr?subject=${formData.objet}&
         body=Bonjour, je suis ${formData.name}. ${formData.message} (${formData.email})`;
     };
 

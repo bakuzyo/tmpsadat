@@ -15,7 +15,6 @@ export default function Hero({ pageInfo }: Props) {
             "Cabinet Isabelle Sadat",
             "Psychothérapeute",
             "Paris 10 ème",
-            "Prochainement..."
         ],
         loop: true,
         delaySpeed: 2000,
@@ -42,7 +41,7 @@ export default function Hero({ pageInfo }: Props) {
                     <Link href="#about">
                         <button className='heroButton'>À propos</button>
                     </Link>
-                    <Link href="#exp">
+                    <Link href="#experience">
                         <button className='heroButton'>Expérience</button>
                     </Link>
                     <Link href="#skills">
