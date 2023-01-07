@@ -42,7 +42,7 @@ export default function About({ pageInfo }: Props) {
             <h4 className='text-4xl font-semibold'>
                 Isabelle Sadat,{" "}
                 <span className="underline decoration-[#F7AB0A]/50">psychothérapeute</span>
-                ,<br /> à Paris 10ème
+                <br /> à Paris 10ème
             </h4>
             <p className='text-base'>
                 {/* {pageInfo?.backgroundInformation} */}
