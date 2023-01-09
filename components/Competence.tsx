@@ -34,8 +34,9 @@ function Competence({ skill, directionLeft }: Props) {
                     <a className="px-4 py-2 text-sm text-white bg-green-600"
                         href="https://www.doctolib.fr/medecin-generaliste/paris/isabelle-sadat#presentation"
                         target="_blank"
+                        rel="noreferrer"
                     >
-                        Plus d'info
+                        Plus d`'`info
                     </a>
                 </div>
             </div>
