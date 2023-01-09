@@ -47,7 +47,7 @@ export default function Header({ socials }: Props) {
                     url="https://www.linkedin.com/in/isabelle-sadat-631b06184/?originalSubdomain=fr"
                     fgColor="gray"
                     bgColor="transparent"
-                    label="Linkedin"
+                    label="Doctolib"
                 />
                 <a
                     className='ml-4'
@@ -57,7 +57,7 @@ export default function Header({ socials }: Props) {
                 </a>
             </motion.div>
 
-            <Link href='#contact'>
+            {/* <Link href='#contact'> */}
                 <motion.div
                     initial={{
                         x: 500,
@@ -81,7 +81,7 @@ export default function Header({ socials }: Props) {
                         Me contacter
                     </a>
                 </motion.div>
-            </Link>
+            {/* </Link> */}
         </header>
     )
 }
