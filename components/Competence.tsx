@@ -36,7 +36,7 @@ function Competence({ skill, directionLeft }: Props) {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Plus d`'`info
+                        Plus d&apos;info
                     </a>
                 </div>
             </div>
